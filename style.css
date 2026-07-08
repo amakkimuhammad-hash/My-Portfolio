@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: black;
+    position: fixed;
+    color: white;
+    display: flex;
+    padding: 15px 50px;
+    align-items: center;
+    justify-content: space-between;
+    width:100% ;
+    top: 0px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    text-align: center;
+    background-image: url(me4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100% ;
+    margin-left: 0px;
+    height: 150vh;
+     justify-content: center;
+     flex-direction: column;
+     display: flex;
+     color: beige;
+     margin-top: 30px
+}
+h1{
+    font-size: 3rem;
+}
+
+section{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: beige;
+    margin: 30px;  
+    box-shadow: 10px 10px 10px gray;
+}
+.skills{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skills div{
+    padding: 10px 20px;
+    background: rgb(16, 86, 225);
+    color: white;
+    border-radius: 5px;
+}
+.card{
+    border: 1px solid  black;
+    margin:20px auto;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+}
+
+form{
+    max-width: 500px;
+    margin: auto;
+}
+input,
+textarea{
+    width:100% ;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    padding: 10px 20px;
+    background: rgb(16, 86, 225);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
